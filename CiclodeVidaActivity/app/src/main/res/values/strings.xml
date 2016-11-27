@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">CiclodeVidaActivity</string>
+    <string name="objetivo">
+        Esta aplicación sólamente es para testear
+        el ciclo de vida de un activity
+        Se prueba abriendo la aplicación, girando la pantalla,
+        presionando los botones de navegación de tu móvil,
+        apareciendo Toast del estado en el qe se encuentra
+    </string>
+    <string name="oncreate">OnCreate</string>
+    <string name="onstart">OnStart</string>
+    <string name="onresume">OnResume</string>
+    <string name="onrestart">OnStrat</string>
+    <string name="onpause">OnPause</string>
+    <string name="onstop">OnStop</string>
+    <string name="ondestroy">OnDestroy</string>
+</resources>
