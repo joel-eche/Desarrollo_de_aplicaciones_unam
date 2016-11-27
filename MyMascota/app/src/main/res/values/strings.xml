@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MyMascota</string>
+    <string name="txt_accion">Accion</string>
+    <string name="txt_arrastraRight">Arrastra >>></string>
+    <string-array name="animales">
+        <item>Perro</item>
+        <item>Gato</item>
+        <item>Loro</item>
+        <item>Mono</item>
+    </string-array>
+    <string name="card_descripcion">lorem ipsum</string>
+</resources>
