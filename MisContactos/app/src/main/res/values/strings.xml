@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MisContactos</string>
+    <string name="nombre">Joel Eche</string>
+    <string name="telefono">123456789</string>
+    <string name="email">joel@example.com</string>
+
+    <string name="param_nombre">nombre</string>
+    <string name="param_telefono">telefono</string>
+    <string name="param_email">email</string>
+</resources>
