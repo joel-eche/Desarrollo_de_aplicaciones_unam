@@ -23,14 +23,17 @@ public class MainActivity extends AppCompatActivity {
 
         lista_contactos=(RecyclerView)findViewById(R.id.rv_contactos);
 
-        /*
-        //Descomentar para comportamiento de LinearLayout y en su lugar comentar el GridLayout
+
         LinearLayoutManager llm=new LinearLayoutManager(this);
         llm.setOrientation(LinearLayoutManager.VERTICAL);
         lista_contactos.setLayoutManager(llm);
-        */
+
+        /*
+        //Descomentar para comportamiento de GridLayout y en su lugar comentar el LinearLayout
         GridLayoutManager glm=new GridLayoutManager(this,2);
         lista_contactos.setLayoutManager(glm);
+        */
+
         inicializarListaContactos();
         inicializarAdaptador();
 
@@ -64,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void inicializarAdaptador(){
-        ContactoAdapter adapter=new ContactoAdapter(contactos);
+        ContactoAdapter adapter=new ContactoAdapter(contactos,this);
         lista_contactos.setAdapter(adapter);
     }
 
