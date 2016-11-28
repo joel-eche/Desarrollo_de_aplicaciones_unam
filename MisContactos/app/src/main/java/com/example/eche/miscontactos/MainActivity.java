@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
 
 
         /*
-        //Ocultando ListView, para probar RecyclerView
+        //Ocultando ListView, para probar RecyclerView, para probar ListView, comentar el código de ReciclerView dentro del oncreate y en su lugar descomentar este
         ArrayList<String> nombres_contacto=new ArrayList<>();
         for (Contacto contacto:contactos) {
             nombres_contacto.add(contacto.getNombre());
