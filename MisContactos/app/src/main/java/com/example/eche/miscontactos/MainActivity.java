@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.widget.GridLayoutManager;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -21,8 +22,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        lista_contactos=(RecyclerView)findViewById(R.id.rv_contactos);
+        Toolbar mi_actionbar=(Toolbar)findViewById(R.id.mi_actionbar);
+        setSupportActionBar(mi_actionbar);
 
+        lista_contactos=(RecyclerView)findViewById(R.id.rv_contactos);
 
         LinearLayoutManager llm=new LinearLayoutManager(this);
         llm.setOrientation(LinearLayoutManager.VERTICAL);
