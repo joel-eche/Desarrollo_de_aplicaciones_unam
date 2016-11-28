@@ -5,11 +5,18 @@
     android:layout_height="match_parent"
     tools:context="com.example.eche.miscontactos.MainActivity">
 
-    <ListView
+    <!--<ListView
         android:id="@+id/lst_contactos"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         >
 
-    </ListView>
+    </ListView>-->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_contactos"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:padding="@dimen/activity_horizontal_margin">
+    </android.support.v7.widget.RecyclerView>
 </RelativeLayout>
