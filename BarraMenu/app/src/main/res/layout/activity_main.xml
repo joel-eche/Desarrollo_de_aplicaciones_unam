@@ -10,7 +10,9 @@
     tools:context="edu.francis.android.barramenu.MainActivity">
 
     <TextView
+        android:id="@+id/tvNombre"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="@string/nombre_persona"
+        android:textSize="@dimen/nombre_persona"/>
 </RelativeLayout>
