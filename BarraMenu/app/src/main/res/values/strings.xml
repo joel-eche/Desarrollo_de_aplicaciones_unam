@@ -6,4 +6,6 @@
     <string name="menu_edit">Edit</string>
     <string name="menu_delete">Delete</string>
     <string name="nombre_persona">Joel Eche</string>
+    <string name="menu_view">View Image</string>
+    <string name="menu_view_detail">View Image Detail</string>
 </resources>
